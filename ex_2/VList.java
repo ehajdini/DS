@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 2
  * Data Structures , Spring 2016
@@ -129,7 +128,7 @@ public class VList implements Iterable {
 
 	 /**
      * Returns an iterator to the VList used to iterate through Variables
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	public Iterator iterator() {
 		return new ListIterator();
@@ -141,7 +140,7 @@ public class VList implements Iterable {
 
 		/**
 		 * Returns true if the iteration has more elements 
-		 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+		 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 		 */
 		@Override
 		public boolean hasNext() {
@@ -155,7 +154,7 @@ public class VList implements Iterable {
 
 		/**
 		 * The next method will return an item of Variable type 
-		 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+		 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 		 */
 		@Override
 		public Variable next() {
