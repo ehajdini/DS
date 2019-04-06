@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 1
  * Data Structures , Spring 2016
@@ -13,7 +12,7 @@
 *    Version: 4/E
 *    Availability: http://algs4.cs.princeton.edu/13stacks/
 *
-*    © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
+*    Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
 *    (All the methods using this notation are regularly referred to in this book. )
 ***************************************************************************************/
 
@@ -45,7 +44,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 
 	 /**
      * Linked List Class
-     *© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     *Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	private class Node {
 		Node next;
@@ -54,7 +53,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 
 	 /**
      * Create an empty stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	AlbaStack() 
 	{
@@ -65,7 +64,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 	
 	 /**
      * Push the item to the stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	void push(Item item) 
 	{
@@ -79,7 +78,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 	 /**
      * Delete and return the most recently added item to the stack
      * If stack is Empty it will throw an exception
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	Item pop() 
 	{
@@ -95,7 +94,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 
 	 /**
      * Check whether the stack is empty
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	boolean isEmpty() 
 	{
@@ -104,7 +103,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 
 	 /**
      * Return the number of items in the stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	int size() 
 	{
@@ -156,7 +155,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 
 	 /**
      * Returns an iterator to the Stack that iterates through the items
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	public Iterator<Item> iterator()
 	{
@@ -187,7 +186,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 		
     	/**
 		 * Returns true if the iteration has more elements
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public boolean hasNext()
@@ -197,7 +196,7 @@ public class AlbaStack<Item> implements Iterable<Item> {
 	
 		/**
 		 * Returns the next element in the iteration.
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public Item next() 
