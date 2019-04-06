@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 4
  * Data Structures , Spring 2016
@@ -12,7 +11,7 @@
 *    Version: 4/E
 *    Availability: http://algs4.cs.princeton.edu/41graph/Graph.java.html
 *
-*    © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
+*    Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
 *    (All the methods using this notation are regularly referred to in this book. )
 ***************************************************************************************/
 /**
@@ -179,7 +178,7 @@ public class Graph {
 	 *            number of vertices
 	 * @throws IllegalArgumentException
 	 *             if V < 0 
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public Graph(int V) {
 		if (V < 0)
@@ -203,7 +202,7 @@ public class Graph {
 	 *             if the endpoints of any edge are not in prescribed range
 	 * @throws IllegalArgumentException
 	 *             if the number of vertices or edges is negative 
-	 *	© Algorithms,4th Edition by Robert Sedgewick and Kevin Wayne
+	 *	Â© Algorithms,4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public Graph(In in) {
 
@@ -223,7 +222,7 @@ public class Graph {
 	 * Initializes a new graph that is a deep copy of G>.
 	 *
 	 * @param G the graph to copy 
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public Graph(Graph G) {
 		this(G.V());
@@ -245,7 +244,7 @@ public class Graph {
 	 *
 	 * @return the number of vertices in this graph
 	 * 
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public int V() {
 		return V;
@@ -256,7 +255,7 @@ public class Graph {
 	 *
 	 * @return the number of edges in this graph
 	 * 
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public int E() {
 		return E;
@@ -264,7 +263,7 @@ public class Graph {
 
 	// throw an IndexOutOfBoundsException unless 0 <= v < V
 	/**
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	private void validateVertex(int v) {
 		if (v < 0 || v >= V)
@@ -281,7 +280,7 @@ public class Graph {
 	 * @throws IndexOutOfBoundsException
 	 *             unless both 0 <= v < V and 0 <= w < V
 	 * 
-	 *© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 *Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public void addEdge(int v, int w) {
 		validateVertex(v);
@@ -300,7 +299,7 @@ public class Graph {
 	 * @throws IndexOutOfBoundsException
 	 *             unless 0 <= v < V
 	 * 
-	 *© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 *Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public Iterable<Integer> adj(int v) {
 		validateVertex(v);
@@ -315,7 +314,7 @@ public class Graph {
 	 * @return the degree of vertex <tt>v</tt>
 	 * @throws IndexOutOfBoundsException
 	 *             unless 0 <= v < V 
-	 *             © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 *             Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public int degree(int v) {
 		validateVertex(v);
