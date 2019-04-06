@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 2
  * Data Structures , Spring 2016
