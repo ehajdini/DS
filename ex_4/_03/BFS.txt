@@ -1,0 +1,30 @@
+3 to 0 (2):  3-1-0
+3 to 1 (1):  3-1
+3 to 2 (-):  not connected
+3 to 3 (0):  3
+3 to 4 (-):  not connected
+3 to 5 (-):  not connected
+3 to 6 (2):  3-1-6
+3 to 7 (1):  3-7
+3 to 8 (-):  not connected
+3 to 9 (-):  not connected
+3 to 10 (-):  not connected
+3 to 11 (-):  not connected
+3 to 12 (-):  not connected
+3 to 13 (-):  not connected
+3 to 14 (3):  3-1-6-14
+3 to 15 (-):  not connected
+3 to 16 (-):  not connected
+3 to 17 (-):  not connected
+3 to 18 (-):  not connected
+3 to 19 (-):  not connected
+3 to 20 (-):  not connected
+3 to 21 (-):  not connected
+3 to 22 (-):  not connected
+3 to 23 (-):  not connected
+3 to 24 (-):  not connected
+3 to 25 (-):  not connected
+3 to 26 (-):  not connected
+3 to 27 (-):  not connected
+3 to 28 (-):  not connected
+3 to 29 (-):  not connected
