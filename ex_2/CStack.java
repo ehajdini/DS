@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 2
  * Data Structures , Spring 2016
@@ -13,7 +12,7 @@
 *    Version: 4/E
 *    Availability: http://algs4.cs.princeton.edu/13stacks/
 *
-*    © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
+*    Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
 *    (All the methods using this notation are regularly referred to in this book. )
 ***************************************************************************************/
 
@@ -39,7 +38,7 @@ public class CStack {
 	/**
 	 * Nested class of linked-list Nodes; Each node holds a Variable and points
 	 * to the next Variable
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	private class Node {
 		Node next;
@@ -48,7 +47,7 @@ public class CStack {
 
 	 /**
      * Create an empty stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	CStack() 
 	{
@@ -59,7 +58,7 @@ public class CStack {
 	
 	 /**
      * Push the item into the stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	void push(int i) 
 	{
@@ -75,7 +74,7 @@ public class CStack {
      * Firstly it will check whether the Stack is empty 
      * If the Stack is empty and it will try to pop out a value ,
      * it will throw malformedPostfixException
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 * @throws malformedPostfixException 
      */
 	int pop() throws malformedPostfixException 
@@ -93,7 +92,7 @@ public class CStack {
 
 	 /**
      * Check whether the stack is empty
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	boolean isEmpty() 
 	{
@@ -102,7 +101,7 @@ public class CStack {
 
 	 /**
      * Return the number of items in the stack.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	int size() 
 	{
@@ -128,7 +127,7 @@ public class CStack {
 	
 	 /**
      * Returns an iterator to the CStack 
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	public Iterator iterator() 
 	{
@@ -141,7 +140,7 @@ public class CStack {
 
 		/**
 		 * Returns true if the iterator has more elements
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public boolean hasNext() 
@@ -157,7 +156,7 @@ public class CStack {
 
 		/**
 		 * The next method will return an integer , since CStack will hold integers
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public Integer next() 
