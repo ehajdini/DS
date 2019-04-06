@@ -1,5 +1,4 @@
 /*
- * Egla Hajdini
  * 
  * Homework assignment 1
  * Data Structures , Spring 2016
@@ -13,7 +12,7 @@
 *    Version: 4/E
 *    Availability: http://algs4.cs.princeton.edu/13stacks/
 *
-*    © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
+*    Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne 
 *    (All the methods using this notation are regularly referred to in this book. )
 ***************************************************************************************/
 
@@ -46,7 +45,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 	 /**
      * Linked List Class
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	private class Node 
 	{ 
@@ -56,7 +55,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 	
 	/**
      * Create an empty queue.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	KrujaQueue() 
 	{
@@ -67,7 +66,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 	 /**
      * Check whether the queue is empty
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	boolean isEmpty() 
 	{
@@ -76,7 +75,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 	/**
      * Return the number of items in the queue.
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	int size() 
 	{
@@ -147,7 +146,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 	/**
      * Removes and returns the item on this queue that was least recently added.
      * @throws NoSuchElementException if this queue is empty
-     * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+     * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
      */
 	AlbaStack dequeue() {
 		AlbaStack item = first.item;
@@ -191,7 +190,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 	/**
      * Returns an iterator that iterates over the items in this queue in FIFO order.
-	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 	 */
 	public Iterator iterator() 
 	{
@@ -204,7 +203,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 		/**
 		 * Returns true if the iteration has more elements
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public boolean hasNext() 
@@ -220,7 +219,7 @@ public class KrujaQueue implements Iterable<AlbaStack>
 
 		/**
 		 * The next method will return an item of AlbaStack type
-    	 * © Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
+    	 * Â© Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
     	 */	
 		@Override
 		public AlbaStack next() 
